@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\repos\\WebAPIApp\\WebAPIApp.csproj": {}
+    "/Users/titik/Documents/GitHub/DDPlanet/Back/WebAPIApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\repos\\WebAPIApp\\WebAPIApp.csproj": {
+    "/Users/titik/Documents/GitHub/DDPlanet/Back/WebAPIApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\WebAPIApp\\WebAPIApp.csproj",
+        "projectUniqueName": "/Users/titik/Documents/GitHub/DDPlanet/Back/WebAPIApp.csproj",
         "projectName": "WebAPIApp",
-        "projectPath": "C:\\Users\\hp\\source\\repos\\WebAPIApp\\WebAPIApp.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\repos\\WebAPIApp\\obj\\",
+        "projectPath": "/Users/titik/Documents/GitHub/DDPlanet/Back/WebAPIApp.csproj",
+        "packagesPath": "/Users/titik/.nuget/packages/",
+        "outputPath": "/Users/titik/Documents/GitHub/DDPlanet/Back/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/titik/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -42,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Microsoft.AspNet.WebApi.Cors": {
               "target": "Package",
@@ -100,6 +95,16 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -108,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }
